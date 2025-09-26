@@ -1,4 +1,6 @@
 # CLA (Contributor License Agreement)
+
+
 *Version 1.0 — Effective Date: 2025-09-26*
 
 **Thank you for your interest in contributing to this project.**  
@@ -23,8 +25,13 @@ You certify, to the best of your knowledge, that:
 - Submitting it does not violate any agreements you have with others.
 
 ## 5. Governing Law
-This CLA is intended to be interpreted broadly and neutrally, in alignment with open-source legal precedents (including *Jacobsen v. Katzer* and subsequent GPL/MIT cases).  
+This CLA is intended to be interpreted broadly and neutrally, in alignment with established open-source legal precedents.  
+Notable examples include:  
+- *Jacobsen v. Katzer* (2008, U.S. Federal Court) – confirmed that open-source licenses are enforceable.  
+- BusyBox enforcement cases (2007–2010, U.S. Federal Courts) – clarified that GPL violations can lead to legal remedies.  
+- *Artifex Software, Inc. v. Hancom, Inc.* (2017, N.D. Cal.) – further established that copyleft licenses create enforceable obligations.  
+- *Hellwig v. VMware* (Germany, 2016–2021) – highlighted international enforceability of GPL terms.  
 
----
+These and other cases demonstrate that open-source licenses function as binding legal instruments, not merely guidelines.  
 
-By submitting a Contribution (for example, via pull request, patch, or email), you agree to these terms.
+Accordingly, contributions to this project are accepted with the intent to preserve neutrality and prevent restrictions based on geography, politics, or sanctions.
