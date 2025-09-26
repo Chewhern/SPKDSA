@@ -1,6 +1,25 @@
 # SPKDSA
 A very simplified full stack framework for passwordless authentication using public key digital signature authentication.
 
+## 🌍 Project Neutrality
+This project is licensed under the MIT License to ensure maximum openness and neutrality.  
+
+The goal is to avoid restrictions tied to specific governments, organizations, or jurisdictions.
+
+## Legal Precedents
+Court rulings (e.g. *Jacobsen v. Katzer*, BusyBox cases, *Artifex v. Hancom*) confirm that
+open source licenses are legally enforceable. While these precedents provide important
+protection for contributors, this project explicitly seeks to avoid situations where
+contributors are excluded based on nationality, politics, or sanctions.
+
+## Neutrality based code contributions
+- To maintain long-term neutrality and legal clarity of this project, all contributions must follow the Contributor License Agreement (CLA).
+- By contributing, you confirm that your work is your own (or you have the rights to submit it).
+- You grant the project maintainers the right to use, modify, and relicense your contribution under the project’s license, ensuring that no future legal or geopolitical restrictions affect this project.
+- This approach is informed by international legal precedents (Jacobsen v. Katzer, BusyBox GPL cases, Artifex v. Hancom, Hellwig v. VMware, etc.), which confirm that open-source licenses are legally binding.
+
+For details, refer to [CLA Here]()
+
 ## Components/Environment required
 
 [Download Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
