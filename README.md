@@ -1,7 +1,7 @@
 # SPKDSA
 A very simplified full stack framework for passwordless authentication using public key digital signature authentication.
 
-## 🌍 Project Neutrality
+## Project Neutrality
 This project is licensed under the MIT License to ensure maximum openness and neutrality.  
 
 The goal is to avoid restrictions tied to specific governments, organizations, or jurisdictions.
