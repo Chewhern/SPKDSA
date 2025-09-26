@@ -1,12 +1,51 @@
 # SPKDSA
 A very simplified full stack framework for passwordless authentication using public key digital signature authentication.
 
-Actual PKDSA may be more complex to use in production. It'll also be quite hard to apply it in production.
+## Components/Environment required
 
-Similar situations apply to SPKDSA but it'll be simpler.
+[Download Dotnet 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
-Once done, I will upload the code and specify the open source license required.
+Client device requires a desktop environment with resolution of **1920 x 1080**.
 
-The license choice will either be MIT or AGPL. 
+On Linux(Ubuntu), you need to execute **apt install dotnet-sdk-8.0**. If such execution was not possible then you can use Windows to compile and deploy on Linux.
 
-I will also describe the differences and features comparing both versions of PKDSA - SPKDSA and PKDSA. 
+### Building applications (On Windows with Visual Studio)
+1. Navigate to the source code folder whereby there's ".csproj" inside.
+2. Click on the file.
+3. Right click on the ".csproj" file inside visual studio and click on "build".
+4. The application will reside in "bin/debug".
+
+### Building applications (On MacOS/Linux)
+1. Navigate to the source code folder whereby there's ".csproj" inside with command prompt/terminal/console.
+2. Do **dotnet build**
+3. The application will reside in "bin/debug".
+
+### Building client applications
+1. Navigate to a single client's application's both source code folder.
+2. Build on the client application without ".Desktop".
+3. Build on the client application with ".Desktop".
+4. The client application will reside within ".Desktop" folder.
+5. Navigate to "bin/debug".
+
+### Run compiled applications (On Windows)
+1. Kindly navigate to the respective folder and double click on ".exe".
+
+### Run compiled applications (On MacOS/Linux)
+1. Kindly navigate to the respective folder and do **dotnet app.dll**
+
+#### Host and deploy server applications (Web API)
+[Click Here](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-9.0&tabs=linux-ubuntu#monitor-the-app)
+
+1. Follow the steps accordingly.
+2. Change the "User" to the user that has permission on compiled web api server application.
+3. Ignore
+```
+Colon (:) separators aren't supported in environment variable names. Use a double underscore (__) in place of a colon. The Environment Variables configuration provider converts double-underscores into colons when environment variables are read into configuration. In the following example, the connection string key ConnectionStrings:DefaultConnection is set into the service definition file as ConnectionStrings__DefaultConnection:
+
+Console
+
+Copy
+Environment=ConnectionStrings__DefaultConnection={Connection String}
+Save the file and enable the service.
+```
+4. Finish until **systemctl**.
