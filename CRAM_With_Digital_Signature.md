@@ -1,5 +1,24 @@
 # Challenge–Response Authentication with Digital Signatures
 
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+
+    Client->>Server: Registration: Public Key + Identifier
+    Server->>Server: Store (Public Key, Identifier)
+
+    Client->>Server: Request Login Challenge
+    Server->>Server: Generate Challenge (≥128 bits, CSPRNG/TRNG)
+    Server->>Client: Send Challenge
+
+    Client->>Client: Sign Challenge with Private Key
+    Client->>Server: Send Signed Challenge
+
+    Server->>Server: Verify Signature with Public Key
+    Server->>Client: Authentication Result (Success/Failure)
+```
+
 ## Registration
 1. The client generates a digital signature key pair and keeps the **private key** securely on the device.  
 2. The client submits the **public key** to the server, along with an identifier (e.g., Email, Phone Number, Username, or User ID).  
