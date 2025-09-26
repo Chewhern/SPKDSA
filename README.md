@@ -18,7 +18,7 @@ contributors are excluded based on nationality, politics, or sanctions.
 - You grant the project maintainers the right to use, modify, and relicense your contribution under the project’s license, ensuring that no future legal or geopolitical restrictions affect this project.
 - This approach is informed by international legal precedents (Jacobsen v. Katzer, BusyBox GPL cases, Artifex v. Hancom, Hellwig v. VMware, etc.), which confirm that open-source licenses are legally binding.
 
-For details, refer to [CLA Here]()
+For details, refer to [CLA Here](https://github.com/Chewhern/SPKDSA/blob/main/CLA.md)
 
 ## Components/Environment required
 
